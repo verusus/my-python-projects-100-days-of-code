@@ -13,7 +13,7 @@ def send_quote_email(quote):
     with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
         connection.starttls()
         connection.login(user=my_email, password=password)
-        connection.sendmail(from_addr=my_email, to_addrs="essalhi12345@yahoo.com",
+        connection.sendmail(from_addr=my_email, to_addrs="test12345@yahoo.com",
                             msg=f"Subject:Today's quote\n\n{quote}")
     # connection.close()
 
