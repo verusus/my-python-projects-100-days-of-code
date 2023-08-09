@@ -4,7 +4,7 @@ import random
 
 
 def send_quote_email(quote):
-    my_email = "abdelhamidsalhi618@gmail.com"
+    my_email = "test@gmail.com"
     password = "zrfddsydoyadycgv"
     # my_email = "essalhi12345@yahoo.com"
     # password = "M6VP6j&2qu9RwZ*"
